@@ -5,7 +5,6 @@ import dbClient from './db';
  * A class for user utilities that will help in
  * getting user data from database and redis client
  */
-
 const userUtils = {
   /**
    * Gets a user id and key of redis from request
