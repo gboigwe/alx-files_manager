@@ -34,7 +34,8 @@ function controllerRouting(app) {
 
   // Authentication - Controller
 
-  // will authenticate the user based on email and password
+  // will authenticate the user based on email and 
+  // password
   router.get('/connect', (req, res) => {
     AuthController.getConnect(req, res);
   });
