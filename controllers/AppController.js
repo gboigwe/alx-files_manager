@@ -9,7 +9,6 @@ class AppController {
    * The response will be in the following
    * format: { "redis": true, "db": true } 
    */
-
   static getStatus(request, response) {
     const status = {
       redis: redisClient.isAlive(),
